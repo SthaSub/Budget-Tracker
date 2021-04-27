@@ -144,16 +144,16 @@ function sendTransaction(isAdding) {
   });
 }
 
-const saveRecord = transaction => {
-  useIndexedDb('budgetDB','budgetStore', 'put',{
-    _id:transaction.name,
-    name: transaction.name,
-    value: transaction.value,
-    date: new Date().toISOString()
-  });
+// const saveRecord = transaction => {
+//   useIndexedDb('budgetDB','budgetStore', 'put',{
+//     _id:transaction.name,
+//     name: transaction.name,
+//     value: transaction.value,
+//     date: new Date().toISOString()
+//   });
 
-  console.log(transaction);
-};
+//   console.log(transaction);
+// };
 
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
