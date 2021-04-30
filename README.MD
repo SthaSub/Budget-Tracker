@@ -41,7 +41,7 @@
   
   ## Screenshot
   ### welcome Screen
-  ![budgetTracker](./public/images/budgetTracker.PNG)
+  ![budgetTracker](./public/images/budget-tracker.PNG)
 
   ## deployed
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://budget-transcation.herokuapp.com/)
